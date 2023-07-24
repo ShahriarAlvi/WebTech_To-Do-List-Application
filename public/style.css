@@ -1,0 +1,196 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #1e1e1e; /* Dark background color */
+  color: #fff; /* Text color - light silver */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333; /* Dark background color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Metallic black box shadow */
+  border-radius: 10px;
+}
+
+h1.header {
+  text-align: center;
+  color: #fff; /* Header text color - light silver */
+  margin-bottom: 20px;
+}
+
+/* Index.html specific styles */
+.logout-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+button.logout-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #d73a49; /* Red logout button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button.logout-btn:hover {
+  background-color: #9a1f2b; /* Darker red on hover */
+}
+
+form.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input.task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #1e1e1e; /* Darker background color for the input field */
+  color: #fff; /* Text color for the input field */
+}
+
+button.add-task-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745; /* Green add task button */
+  color: #fff; /* Text color for the button */
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button.add-task-btn:hover {
+  background-color: #19692c; /* Darker green on hover */
+}
+
+ul.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #1e1e1e; /* Darker background color for the task item */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Metallic black box shadow */
+  padding: 15px;
+}
+
+li.task-item span {
+  flex: 1;
+  font-size: 18px;
+  color: #fff; /* Text color for the task text */
+}
+
+button.edit-btn,
+button.delete-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #0366d6; /* Blue edit and delete buttons */
+  color: #fff; /* Text color for the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+
+button.delete-btn {
+  background-color: #d73a49; /* Red delete button */
+}
+
+button.edit-btn:hover,
+button.delete-btn:hover {
+  background-color: #003f7e; /* Darker blue on hover */
+}
+
+/* Edit Task Styles */
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  padding: 10px 0px;
+  font-size: 16px;
+  border: 1px solid #333; /* Darker border color for the input field */
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 0px;
+  background-color: #1e1e1e; /* Darker background color for the input field */
+  color: #fff; /* Text color for the input field */
+}
+
+/* Login.html and Register.html specific styles */
+/* Center the login and register forms */
+form.login-form,
+form.register-form {
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #333; /* Dark background color for the login and register forms */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Metallic black box shadow */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+input.username-input,
+input.password-input {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #333; /* Darker border color for the input fields */
+  border-radius: 5px;
+  background-color: #1e1e1e; /* Darker background color for the input fields */
+  color: #fff; /* Text color for the input fields */
+}
+
+p.error-message {
+  color: #d73a49; /* Red error message color */
+  margin-bottom: 10px;
+}
+
+button.login-btn,
+button.register-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745; /* Green login and register buttons */
+  color: #fff; /* Text color for the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button.login-btn:hover,
+button.register-btn:hover {
+  background-color: #19692c; /* Darker green on hover */
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6; /* Blue link color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Center the .prompt element */
+.prompt {
+  text-align: center;
+}
